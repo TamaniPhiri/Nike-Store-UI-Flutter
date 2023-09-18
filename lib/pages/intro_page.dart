@@ -19,7 +19,7 @@ class IntroPage extends StatelessWidget {
             const SizedBox(
               height: 48,
             ),
-            Text(
+            const Text(
               "Just did it",
               style: TextStyle(
                 fontSize: 24,
