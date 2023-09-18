@@ -12,10 +12,10 @@ class IntroPage extends StatelessWidget {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.all(25.0),
+                padding: const EdgeInsets.all(20.0),
                 child: Image.asset(
                   'lib/images/nike_logo.png',
-                  height: 300,
+                  height: 350,
                 ),
               ),
               const Text(
@@ -44,7 +44,10 @@ class IntroPage extends StatelessWidget {
                 child: const Center(
                   child: Text(
                     "Shop now",
-                    style: TextStyle(color: Colors.white, fontSize: 16),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
               )
