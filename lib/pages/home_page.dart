@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
           icon: const Icon(Icons.menu),
           onPressed: () {},
         ),
-        backgroundColor: const Color.fromARGB(221, 107, 107, 107),
+        backgroundColor: const Color.fromARGB(221, 81, 81, 81),
       ),
       bottomNavigationBar: BottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
