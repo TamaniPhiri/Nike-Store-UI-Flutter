@@ -10,6 +10,7 @@ class IntroPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 25.0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
                 padding: const EdgeInsets.all(20.0),
@@ -37,11 +38,11 @@ class IntroPage extends StatelessWidget {
                 height: 50,
               ),
               GestureDetector(
-                onTap: Navigator.push(
-                  context,
-                MaterialPageRoute(
-                  builder: (context)=>HomePage()
-                  ),
+                // onTap: Navigator.push(
+                //   context,
+                // MaterialPageRoute(
+                //   builder: (context)=>HomePage()
+                //   ),
                 child: Container(
                   decoration: BoxDecoration(
                       color: Colors.black87,
