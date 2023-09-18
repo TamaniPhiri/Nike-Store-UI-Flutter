@@ -1,6 +1,7 @@
 import 'package:demo/components/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 
+import 'cart_page.dart';
 import 'shop_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -33,6 +34,7 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
+      body: _pages[_selectedIndex],
     );
   }
 }
