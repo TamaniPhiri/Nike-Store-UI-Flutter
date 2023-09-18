@@ -4,8 +4,13 @@ class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Color.fromARGB(255, 48, 48, 48),
+    return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 232, 232, 232),
+      body: Column(
+        children: [
+          Image.asset('lib/images/nike_logo.png'),
+        ],
+      ),
     );
   }
 }
