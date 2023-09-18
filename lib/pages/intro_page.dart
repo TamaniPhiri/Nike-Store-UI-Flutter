@@ -15,7 +15,7 @@ class IntroPage extends StatelessWidget {
                 padding: const EdgeInsets.all(25.0),
                 child: Image.asset(
                   'lib/images/nike_logo.png',
-                  height: 270,
+                  height: 300,
                 ),
               ),
               const Text(
