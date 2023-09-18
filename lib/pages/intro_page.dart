@@ -36,18 +36,22 @@ class IntroPage extends StatelessWidget {
               const SizedBox(
                 height: 50,
               ),
-              Container(
-                decoration: BoxDecoration(
-                    color: Colors.black87,
-                    borderRadius: BorderRadius.circular(12)),
-                padding: const EdgeInsets.all(20),
-                child: const Center(
-                  child: Text(
-                    "Shop now",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold),
+              GestureDetector(
+                onTap: Navigator.push(context,
+                MaterialPageRoute(builder: (context)=>HomePage()),
+                child: Container(
+                  decoration: BoxDecoration(
+                      color: Colors.black87,
+                      borderRadius: BorderRadius.circular(12)),
+                  padding: const EdgeInsets.all(20),
+                  child: const Center(
+                    child: Text(
+                      "Shop now",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ),
               )
