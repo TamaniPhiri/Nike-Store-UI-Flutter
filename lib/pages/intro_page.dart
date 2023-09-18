@@ -8,7 +8,10 @@ class IntroPage extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 232, 232, 232),
       body: Column(
         children: [
-          Image.asset('lib/images/nike_logo.png'),
+          Image.asset(
+            'lib/images/nike_logo.png',
+            height: 150,
+          ),
         ],
       ),
     );
