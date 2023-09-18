@@ -32,6 +32,23 @@ class IntroPage extends StatelessWidget {
                 "Brand new sneakers and custom kicks made with quality and heart",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.center,
+              ),
+              const SizedBox(
+                height: 50,
+              ),
+              Container(
+                decoration: BoxDecoration(
+                    color: Colors.black87,
+                    borderRadius: BorderRadius.circular(12)),
+                padding: const EdgeInsets.all(25),
+                child: const Center(
+                  child: Text(
+                    "Shop now",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
               )
             ],
           ),
