@@ -29,7 +29,7 @@ class IntroPage extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                "Brand new sneakers and custom kicks my gee",
+                "Brand new sneakers and custom kicks made with quality and heart",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.center,
               )
