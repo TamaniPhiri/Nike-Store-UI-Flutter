@@ -6,7 +6,7 @@ class BottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: const GNav(tabs: [
+      child: const GNav(color: Color.fromARGB(255, 49, 49, 49), tabs: [
         GButton(
           icon: Icons.home,
           text: "Shop",
