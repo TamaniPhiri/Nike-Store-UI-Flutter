@@ -6,16 +6,21 @@ class BottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: const GNav(color: Color.fromARGB(255, 49, 49, 49), tabs: [
-        GButton(
-          icon: Icons.home,
-          text: "Shop",
-        ),
-        GButton(
-          icon: Icons.shopping_bag_rounded,
-          text: "Cart",
-        ),
-      ]),
+      child: GNav(
+          color: const Color.fromARGB(255, 166, 166, 166),
+          activeColor: Colors.black87,
+          tabActiveBorder:
+              Border.all(color: const Color.fromARGB(221, 200, 200, 200)),
+          tabs: const [
+            GButton(
+              icon: Icons.home,
+              text: "Shop",
+            ),
+            GButton(
+              icon: Icons.shopping_bag_rounded,
+              text: "Cart",
+            ),
+          ]),
     );
   }
 }
