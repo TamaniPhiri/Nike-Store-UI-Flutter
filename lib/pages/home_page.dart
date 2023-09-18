@@ -1,6 +1,8 @@
 import 'package:demo/components/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 
+import 'shop_page.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
   @override
