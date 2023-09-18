@@ -11,6 +11,10 @@ class BottomNavBar extends StatelessWidget {
           icon: Icons.home,
           text: "Shop",
         ),
+        GButton(
+          icon: Icons.home,
+          text: "Shop",
+        ),
       ]),
     );
   }
