@@ -44,8 +44,20 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
-      drawer: const Drawer(
+      drawer: Drawer(
         backgroundColor: Colors.black87,
+        child: Column(
+          children: [
+            DrawerHeader(
+                child: Image.asset(
+              "lib/images/nike_logo.png",
+              color: Colors.white,
+            )),
+            const Divider(
+              color: Color.fromARGB(255, 23, 23, 23),
+            )
+          ],
+        ),
       ),
       body: _pages[_selectedIndex],
     );
