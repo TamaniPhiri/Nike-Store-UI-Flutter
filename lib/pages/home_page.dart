@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
               color: Colors.white,
             )),
             const Divider(
-              color: Color.fromARGB(255, 23, 23, 23),
+              color: Color.fromARGB(255, 34, 34, 34),
             )
           ],
         ),
