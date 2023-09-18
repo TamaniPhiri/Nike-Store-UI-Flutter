@@ -5,7 +5,7 @@ class IntroPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.lime,
+      backgroundColor: Color.fromARGB(255, 48, 48, 48),
     );
   }
 }
