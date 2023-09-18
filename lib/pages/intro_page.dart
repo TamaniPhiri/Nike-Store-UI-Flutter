@@ -16,15 +16,20 @@ class IntroPage extends StatelessWidget {
                 height: 270,
               ),
             ),
-            const SizedBox(
-              height: 48,
-            ),
             const Text(
               "Just did it",
               style: TextStyle(
                 fontSize: 24,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w900,
               ),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            const Text(
+              "Brand new sneakers and custom kicks my gee",
+              style: TextStyle(fontSize: 16),
+              textAlign: TextAlign.center,
             )
           ],
         ),
