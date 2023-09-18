@@ -44,7 +44,9 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
-      drawer: const Drawer(),
+      drawer: const Drawer(
+        backgroundColor: Colors.black87,
+      ),
       body: _pages[_selectedIndex],
     );
   }
