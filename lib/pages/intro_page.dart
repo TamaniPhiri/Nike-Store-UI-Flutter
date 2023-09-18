@@ -44,9 +44,7 @@ class IntroPage extends StatelessWidget {
                 child: const Center(
                   child: Text(
                     "Shop now",
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
+                    style: TextStyle(color: Colors.white, fontSize: 16),
                   ),
                 ),
               )
