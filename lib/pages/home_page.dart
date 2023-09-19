@@ -59,14 +59,17 @@ class _HomePageState extends State<HomePage> {
                 color: Color.fromARGB(255, 48, 48, 48),
               ),
             ),
-            const ListTile(
-              leading: Icon(
-                Icons.home,
-                color: Colors.greenAccent,
-              ),
-              title: Text(
-                "Home",
-                style: TextStyle(color: Colors.white),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 25.0),
+              child: ListTile(
+                leading: Icon(
+                  Icons.home,
+                  color: Colors.greenAccent,
+                ),
+                title: Text(
+                  "Home",
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             )
           ],
