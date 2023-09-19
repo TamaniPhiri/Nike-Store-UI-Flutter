@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 leading: Icon(
                   Icons.home,
-                  color: Colors.greenAccent,
+                  color: Color.fromARGB(255, 103, 103, 103),
                 ),
                 title: Text(
                   "Home",
