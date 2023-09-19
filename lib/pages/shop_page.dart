@@ -14,7 +14,8 @@ class _ShopPageState extends State<ShopPage> {
       children: [
         // search bar
         Container(
-          decoration: const BoxDecoration(color: Colors.black87),
+          decoration:
+              const BoxDecoration(color: Color.fromARGB(255, 148, 148, 148)),
           child: const Text("Search"),
         ),
         // message
