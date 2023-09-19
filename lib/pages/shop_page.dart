@@ -15,6 +15,7 @@ class _ShopPageState extends State<ShopPage> {
         // search bar
         Container(
           padding: const EdgeInsets.all(12.0),
+          margin: const EdgeInsets.symmetric(horizontal: 25.0),
           decoration:
               const BoxDecoration(color: Color.fromARGB(255, 239, 239, 239)),
           child: const Row(
