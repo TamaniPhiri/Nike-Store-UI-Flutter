@@ -28,8 +28,15 @@ class _ShopPageState extends State<ShopPage> {
         const Padding(
           padding: EdgeInsets.symmetric(vertical: 25.0),
           child: Text("Brands made by skilled professionals"),
-        )
+        ),
         // hot picks
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 25.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [Text("Hot picks"), Text("see all")],
+          ),
+        )
       ],
     );
   }
