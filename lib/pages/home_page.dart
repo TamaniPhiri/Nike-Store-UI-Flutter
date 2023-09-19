@@ -74,6 +74,19 @@ class _HomePageState extends State<HomePage> {
                   style: TextStyle(color: Colors.white),
                 ),
               ),
+            ),
+            const Padding(
+              padding: EdgeInsets.only(left: 25.0),
+              child: ListTile(
+                leading: Icon(
+                  Icons.shopping_bag_rounded,
+                  color: Color.fromARGB(255, 103, 103, 103),
+                ),
+                title: Text(
+                  "Cart",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
             )
           ],
         ),
