@@ -48,11 +48,13 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.black87,
         child: Column(
           children: [
+            // drawer top (logo)
             DrawerHeader(
                 child: Image.asset(
               "lib/images/nike_logo.png",
               color: Colors.white,
             )),
+            // Pages
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 25.0),
               child: Divider(
