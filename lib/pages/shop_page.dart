@@ -14,7 +14,7 @@ class _ShopPageState extends State<ShopPage> {
       children: [
         // search bar
         Container(
-          padding: const EdgeInsets.all(25.0),
+          padding: const EdgeInsets.all(12.0),
           decoration:
               const BoxDecoration(color: Color.fromARGB(255, 239, 239, 239)),
           child: const Text("Search"),
