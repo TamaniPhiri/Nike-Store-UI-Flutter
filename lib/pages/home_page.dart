@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 25.0),
+              padding: EdgeInsets.only(left: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.home,
