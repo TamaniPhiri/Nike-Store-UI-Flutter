@@ -18,9 +18,7 @@ class _ShopPageState extends State<ShopPage> {
           decoration:
               const BoxDecoration(color: Color.fromARGB(255, 239, 239, 239)),
           child: const Row(
-            children: [
-              Text("Search"),
-            ],
+            children: [Text("Search"), Icon(Icons.search_rounded)],
           ),
         ),
         // message
