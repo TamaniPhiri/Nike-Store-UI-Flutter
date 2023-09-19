@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                 color: Color.fromARGB(255, 48, 48, 48),
               ),
             ),
-            // Pages
+            // Pages -home
             const Padding(
               padding: EdgeInsets.only(left: 25.0),
               child: ListTile(
@@ -75,11 +75,40 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
+            // Cart
             const Padding(
               padding: EdgeInsets.only(left: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.shopping_bag_rounded,
+                  color: Color.fromARGB(255, 103, 103, 103),
+                ),
+                title: Text(
+                  "Cart",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ),
+            // About
+            const Padding(
+              padding: EdgeInsets.only(left: 25.0),
+              child: ListTile(
+                leading: Icon(
+                  Icons.info,
+                  color: Color.fromARGB(255, 103, 103, 103),
+                ),
+                title: Text(
+                  "Cart",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ),
+            // Log out
+            const Padding(
+              padding: EdgeInsets.only(left: 25.0),
+              child: ListTile(
+                leading: Icon(
+                  Icons.logout_rounded,
                   color: Color.fromARGB(255, 103, 103, 103),
                 ),
                 title: Text(
