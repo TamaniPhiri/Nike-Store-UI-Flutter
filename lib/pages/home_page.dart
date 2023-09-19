@@ -53,8 +53,11 @@ class _HomePageState extends State<HomePage> {
               "lib/images/nike_logo.png",
               color: Colors.white,
             )),
-            const Divider(
-              color: Color.fromARGB(255, 48, 48, 48),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 25.0),
+              child: Divider(
+                color: Color.fromARGB(255, 48, 48, 48),
+              ),
             )
           ],
         ),
