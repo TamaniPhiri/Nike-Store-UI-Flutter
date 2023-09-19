@@ -26,7 +26,7 @@ class _ShopPageState extends State<ShopPage> {
         ),
         // message
         const Padding(
-          padding: EdgeInsets.all(8.0),
+          padding: EdgeInsets.symmetric(vertical: 25.0),
           child: Text("Brands made by skilled professionals"),
         )
         // hot picks
