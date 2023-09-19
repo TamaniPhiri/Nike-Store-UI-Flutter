@@ -10,10 +10,13 @@ class ShopPage extends StatefulWidget {
 class _ShopPageState extends State<ShopPage> {
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       children: [
         // search bar
-
+        Container(
+          decoration: const BoxDecoration(color: Colors.black87),
+          child: const Text("Search"),
+        ),
         // message
 
         // hot picks
