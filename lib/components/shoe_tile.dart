@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import '../models/shoe.dart';
 
 class ShoeTile extends StatelessWidget {
-  const ShoeTile({super.key});
+  Shoe shoe;
+  ShoeTile({super.key, required this.shoe});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container(
+      margin: EdgeInsets.only(left: 25),
+    );
   }
 }
