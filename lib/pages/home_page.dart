@@ -49,6 +49,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 // drawer top (logo)
                 DrawerHeader(
