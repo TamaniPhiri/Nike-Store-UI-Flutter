@@ -114,7 +114,7 @@ class _HomePageState extends State<HomePage> {
             ),
             // Log out
             const Padding(
-              padding: EdgeInsets.only(left: 25.0),
+              padding: EdgeInsets.only(left: 25.0, bottom: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.logout_rounded,
