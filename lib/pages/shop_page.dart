@@ -16,8 +16,9 @@ class _ShopPageState extends State<ShopPage> {
         Container(
           padding: const EdgeInsets.all(12.0),
           margin: const EdgeInsets.symmetric(horizontal: 25.0),
-          decoration:
-              const BoxDecoration(color: Color.fromARGB(255, 239, 239, 239)),
+          decoration: BoxDecoration(
+              color: Color.fromARGB(255, 239, 239, 239),
+              borderRadius: BorderRadius.circular(8.0)),
           child: const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [Text("Search"), Icon(Icons.search_rounded)],
