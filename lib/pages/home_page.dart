@@ -48,60 +48,64 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.black87,
         child: Column(
           children: [
-            // drawer top (logo)
-            DrawerHeader(
-                child: Image.asset(
-              "lib/images/nike_logo.png",
-              color: Colors.white,
-            )),
-            // Divider
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 25.0),
-              child: Divider(
-                color: Color.fromARGB(255, 48, 48, 48),
-              ),
-            ),
-            // Pages -home
-            const Padding(
-              padding: EdgeInsets.only(left: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.home,
-                  color: Color.fromARGB(255, 103, 103, 103),
+            Column(
+              children: [
+                // drawer top (logo)
+                DrawerHeader(
+                    child: Image.asset(
+                  "lib/images/nike_logo.png",
+                  color: Colors.white,
+                )),
+                // Divider
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 25.0),
+                  child: Divider(
+                    color: Color.fromARGB(255, 48, 48, 48),
+                  ),
                 ),
-                title: Text(
-                  "Home",
-                  style: TextStyle(color: Colors.white),
+                // Pages -home
+                const Padding(
+                  padding: EdgeInsets.only(left: 25.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.home,
+                      color: Color.fromARGB(255, 103, 103, 103),
+                    ),
+                    title: Text(
+                      "Home",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
                 ),
-              ),
-            ),
-            // Cart
-            const Padding(
-              padding: EdgeInsets.only(left: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.shopping_bag_rounded,
-                  color: Color.fromARGB(255, 103, 103, 103),
+                // Cart
+                const Padding(
+                  padding: EdgeInsets.only(left: 25.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.shopping_bag_rounded,
+                      color: Color.fromARGB(255, 103, 103, 103),
+                    ),
+                    title: Text(
+                      "Cart",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
                 ),
-                title: Text(
-                  "Cart",
-                  style: TextStyle(color: Colors.white),
+                // About
+                const Padding(
+                  padding: EdgeInsets.only(left: 25.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.info,
+                      color: Color.fromARGB(255, 103, 103, 103),
+                    ),
+                    title: Text(
+                      "About",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
                 ),
-              ),
-            ),
-            // About
-            const Padding(
-              padding: EdgeInsets.only(left: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.info,
-                  color: Color.fromARGB(255, 103, 103, 103),
-                ),
-                title: Text(
-                  "About",
-                  style: TextStyle(color: Colors.white),
-                ),
-              ),
+              ],
             ),
             // Log out
             const Padding(
