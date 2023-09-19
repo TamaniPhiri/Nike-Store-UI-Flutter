@@ -34,6 +34,7 @@ class _ShopPageState extends State<ShopPage> {
           padding: EdgeInsets.symmetric(horizontal: 25.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.end,
             children: [Text("Hot picks"), Text("see all")],
           ),
         )
