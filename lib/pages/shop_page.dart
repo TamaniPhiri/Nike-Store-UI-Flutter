@@ -35,7 +35,13 @@ class _ShopPageState extends State<ShopPage> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.end,
-            children: [Text("Hot picks"), Text("see all")],
+            children: [
+              Text(
+                "Hot picks",
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+              Text("see all")
+            ],
           ),
         )
       ],
