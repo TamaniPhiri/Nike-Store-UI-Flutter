@@ -11,7 +11,13 @@ class _ShopPageState extends State<ShopPage> {
   @override
   Widget build(BuildContext context) {
     return const Column(
-      children: [Text("Shop-Page")],
+      children: [
+        // search bar
+
+        // message
+
+        // hot picks
+      ],
     );
   }
 }
