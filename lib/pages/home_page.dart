@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
                   color: Color.fromARGB(255, 103, 103, 103),
                 ),
                 title: Text(
-                  "Cart",
+                  "About",
                   style: TextStyle(color: Colors.white),
                 ),
               ),
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                   color: Color.fromARGB(255, 103, 103, 103),
                 ),
                 title: Text(
-                  "Cart",
+                  "Logout",
                   style: TextStyle(color: Colors.white),
                 ),
               ),
