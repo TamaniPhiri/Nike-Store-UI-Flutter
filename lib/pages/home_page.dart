@@ -58,6 +58,10 @@ class _HomePageState extends State<HomePage> {
               child: Divider(
                 color: Color.fromARGB(255, 48, 48, 48),
               ),
+            ),
+            const ListTile(
+              leading: Icon(Icons.home),
+              title: Text("Home"),
             )
           ],
         ),
