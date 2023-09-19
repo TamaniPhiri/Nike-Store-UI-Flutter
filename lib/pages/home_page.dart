@@ -31,7 +31,10 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         leading: Builder(builder: (context) {
           return IconButton(
-            icon: const Icon(Icons.menu),
+            icon: const Padding(
+              padding: EdgeInsets.only(left: 12.0),
+              child: Icon(Icons.menu),
+            ),
             onPressed: () {
               Scaffold.of(context).openDrawer();
             },
