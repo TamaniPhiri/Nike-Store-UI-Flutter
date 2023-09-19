@@ -61,7 +61,10 @@ class _HomePageState extends State<HomePage> {
             ),
             const ListTile(
               leading: Icon(Icons.home),
-              title: Text("Home"),
+              title: Text(
+                "Home",
+                style: TextStyle(color: Colors.white),
+              ),
             )
           ],
         ),
