@@ -16,7 +16,7 @@ class _ShopPageState extends State<ShopPage> {
         Container(
           padding: const EdgeInsets.all(25.0),
           decoration:
-              const BoxDecoration(color: Color.fromARGB(255, 148, 148, 148)),
+              const BoxDecoration(color: Color.fromARGB(255, 239, 239, 239)),
           child: const Text("Search"),
         ),
         // message
