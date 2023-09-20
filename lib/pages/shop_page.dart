@@ -55,9 +55,13 @@ class _ShopPageState extends State<ShopPage> {
         ),
         Expanded(child: ListView.builder(itemBuilder: (context, index) {
           // create a shoe
-          Shoe shoe=Shoe(name: "Air max", price: "180", description: "A work of art", imagePath: "lib/images/nike_logo.png")
+          Shoe shoe = Shoe(
+              name: "Air max",
+              price: "180",
+              description: "A work of art",
+              imagePath: "lib/images/nike_logo.png");
           return ShoeTile(
-            shoe: ,
+            shoe: shoe,
           );
         }))
       ],
