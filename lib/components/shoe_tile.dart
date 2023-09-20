@@ -28,14 +28,17 @@ class ShoeTile extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Column(
-              children: [
-                // shoe name
-                Text(shoe.name),
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Column(
+                children: [
+                  // shoe name
+                  Text(shoe.name),
 
-                // price
-                Text(shoe.price)
-              ],
+                  // price
+                  Text(shoe.price)
+                ],
+              ),
             ),
 
             // plus button
