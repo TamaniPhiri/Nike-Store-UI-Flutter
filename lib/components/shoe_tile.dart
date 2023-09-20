@@ -40,7 +40,9 @@ class ShoeTile extends StatelessWidget {
 
             // plus button
             Container(
-                decoration: const BoxDecoration(color: Colors.black87),
+                decoration: BoxDecoration(
+                    color: Colors.black87,
+                    borderRadius: BorderRadius.circular(25)),
                 padding: const EdgeInsets.all(20),
                 child: const Icon(
                   Icons.add,
