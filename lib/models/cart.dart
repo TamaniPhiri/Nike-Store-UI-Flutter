@@ -17,7 +17,15 @@ class Cart {
   List<Shoe> getShoeList() {
     return shoeShop;
   }
+
   // get cart
+  List<Shoe> getUserCart() {
+    return userCart;
+  }
+
   // add items to cart
+  void addItemsToCart(Shoe shoe) {
+    userCart.add(shoe);
+  }
   // remove item from cart
 }
