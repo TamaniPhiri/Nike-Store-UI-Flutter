@@ -29,6 +29,7 @@ class ShoeTile extends StatelessWidget {
           padding: const EdgeInsets.only(left: 25.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
