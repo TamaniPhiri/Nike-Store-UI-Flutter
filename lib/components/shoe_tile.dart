@@ -26,9 +26,13 @@ class ShoeTile extends StatelessWidget {
         ),
         const Row(
           children: [
-            // shoe name
+            Column(
+              children: [
+                // shoe name
 
-            // price
+                // price
+              ],
+            )
 
             // plus button
           ],
