@@ -51,7 +51,7 @@ class _ShopPageState extends State<ShopPage> {
           ),
         ),
         const SizedBox(
-          height: 25.0,
+          height: 10.0,
         ),
         Expanded(
             child: ListView.builder(
