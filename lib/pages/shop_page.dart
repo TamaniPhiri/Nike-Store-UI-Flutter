@@ -53,7 +53,7 @@ class _ShopPageState extends State<ShopPage> {
           height: 25.0,
         ),
         Expanded(child: ListView.builder(itemBuilder: (context, index) {
-          return const ShoeTile();
+          return ShoeTile();
         }))
       ],
     );
