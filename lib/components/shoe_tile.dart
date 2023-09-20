@@ -39,7 +39,10 @@ class ShoeTile extends StatelessWidget {
                           fontSize: 20, fontWeight: FontWeight.bold)),
 
                   // price
-                  Text(shoe.price)
+                  Text(
+                    "K${shoe.price}",
+                    style: const TextStyle(color: Colors.black87),
+                  )
                 ],
               ),
             ),
