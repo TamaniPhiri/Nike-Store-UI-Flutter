@@ -24,7 +24,7 @@ class ShoeTile extends StatelessWidget {
           shoe.description,
           style: const TextStyle(color: Color.fromARGB(255, 93, 93, 93)),
         ),
-        Row(
+        const Row(
           children: [
             // shoe name
 
