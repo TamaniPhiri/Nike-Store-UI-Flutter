@@ -20,7 +20,10 @@ class ShoeTile extends StatelessWidget {
             borderRadius: BorderRadius.circular(8),
             child: Image.asset(shoe.imagePath)),
         // description
-        Text(shoe.description),
+        Text(
+          shoe.description,
+          style: const TextStyle(color: Colors.black12),
+        ),
       ]),
     );
   }
