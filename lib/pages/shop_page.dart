@@ -53,17 +53,20 @@ class _ShopPageState extends State<ShopPage> {
         const SizedBox(
           height: 25.0,
         ),
-        Expanded(child: ListView.builder(itemBuilder: (context, index) {
-          // create a shoe
-          Shoe shoe = Shoe(
-              name: "Air max",
-              price: "180",
-              description: "A work of art",
-              imagePath: "lib/images/nike_logo.png");
-          return ShoeTile(
-            shoe: shoe,
-          );
-        }))
+        Expanded(
+            child: ListView.builder(
+                itemCount: 4,
+                itemBuilder: (context, index) {
+                  // create a shoe
+                  Shoe shoe = Shoe(
+                      name: "Air max",
+                      price: "180",
+                      description: "A work of art",
+                      imagePath: "lib/images/nike_logo.png");
+                  return ShoeTile(
+                    shoe: shoe,
+                  );
+                }))
       ],
     );
   }
