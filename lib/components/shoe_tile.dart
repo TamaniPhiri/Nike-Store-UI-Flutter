@@ -39,7 +39,7 @@ class ShoeTile extends StatelessWidget {
             ),
 
             // plus button
-            const Icon(Icons.add)
+            Container(padding: EdgeInsets.all(20), child: Icon(Icons.add))
           ],
         )
       ]),
