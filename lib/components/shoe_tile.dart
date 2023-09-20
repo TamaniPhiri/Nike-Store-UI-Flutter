@@ -16,7 +16,9 @@ class ShoeTile extends StatelessWidget {
       ),
       child: Column(children: [
         // shoe pic
-        Image.asset(shoe.imagePath),
+        ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: Image.asset(shoe.imagePath)),
       ]),
     );
   }
