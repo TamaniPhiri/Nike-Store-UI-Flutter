@@ -25,6 +25,7 @@ class ShoeTile extends StatelessWidget {
           style: const TextStyle(color: Color.fromARGB(255, 93, 93, 93)),
         ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Column(
               children: [
