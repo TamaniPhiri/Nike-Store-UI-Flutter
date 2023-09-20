@@ -24,13 +24,15 @@ class ShoeTile extends StatelessWidget {
           shoe.description,
           style: const TextStyle(color: Color.fromARGB(255, 93, 93, 93)),
         ),
-        const Row(
+        Row(
           children: [
             Column(
               children: [
                 // shoe name
+                Text(shoe.name),
 
                 // price
+                Text(shoe.price)
               ],
             )
 
