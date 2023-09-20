@@ -7,7 +7,8 @@ class Cart {
         name: "Polar reece",
         price: "540",
         imagePath: "lib/images/nike_logo.png",
-        description: "Out of this world")
+        description: "Out of this world"),
+    // i can add more kicks her the same way
   ];
   // list of items in user's cart
   // get list of items for sale
