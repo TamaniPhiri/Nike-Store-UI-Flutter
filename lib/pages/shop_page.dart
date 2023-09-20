@@ -69,7 +69,7 @@ class _ShopPageState extends State<ShopPage> {
                   );
                 })),
         const Padding(
-          padding: EdgeInsets.only(top: 25.0),
+          padding: EdgeInsets.only(top: 25.0, right: 25.0, left: 25.0),
           child: Divider(
             color: Colors.white,
           ),
