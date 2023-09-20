@@ -11,6 +11,7 @@ class Cart {
     // i can add more kicks her the same way
   ];
   // list of items in user's cart
+  List<Shoe> userCart = [];
   // get list of items for sale
   // get cart
   // add items to cart
