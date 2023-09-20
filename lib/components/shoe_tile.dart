@@ -25,39 +25,42 @@ class ShoeTile extends StatelessWidget {
           shoe.description,
           style: const TextStyle(color: Color.fromARGB(255, 93, 93, 93)),
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                // shoe name
-                Text(shoe.name,
-                    style: const TextStyle(
-                        fontSize: 20, fontWeight: FontWeight.bold)),
+        Padding(
+          padding: const EdgeInsets.only(left: 25.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // shoe name
+                  Text(shoe.name,
+                      style: const TextStyle(
+                          fontSize: 20, fontWeight: FontWeight.bold)),
 
-                // price
-                Text(
-                  "K${shoe.price}",
-                  style:
-                      const TextStyle(color: Color.fromARGB(221, 53, 53, 53)),
-                )
-              ],
-            ),
+                  // price
+                  Text(
+                    "K${shoe.price}",
+                    style:
+                        const TextStyle(color: Color.fromARGB(221, 53, 53, 53)),
+                  )
+                ],
+              ),
 
-            // plus button
-            Container(
-                decoration: const BoxDecoration(
-                    color: Colors.black87,
-                    borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(12),
-                        bottomRight: Radius.circular(12))),
-                padding: const EdgeInsets.all(20),
-                child: const Icon(
-                  Icons.add,
-                  color: Colors.white,
-                ))
-          ],
+              // plus button
+              Container(
+                  decoration: const BoxDecoration(
+                      color: Colors.black87,
+                      borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(12),
+                          bottomRight: Radius.circular(12))),
+                  padding: const EdgeInsets.all(20),
+                  child: const Icon(
+                    Icons.add,
+                    color: Colors.white,
+                  ))
+            ],
+          ),
         )
       ]),
     );
