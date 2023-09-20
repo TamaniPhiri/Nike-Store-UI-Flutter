@@ -34,7 +34,9 @@ class ShoeTile extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   // shoe name
-                  Text(shoe.name),
+                  Text(shoe.name,
+                      style: const TextStyle(
+                          fontSize: 20, fontWeight: FontWeight.bold)),
 
                   // price
                   Text(shoe.price)
