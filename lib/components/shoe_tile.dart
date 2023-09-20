@@ -34,9 +34,10 @@ class ShoeTile extends StatelessWidget {
                 // price
                 Text(shoe.price)
               ],
-            )
+            ),
 
             // plus button
+            const Icon(Icons.add)
           ],
         )
       ]),
