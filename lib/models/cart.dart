@@ -14,6 +14,16 @@ class Cart extends ChangeNotifier {
         price: "540",
         imagePath: "lib/images/nike_logo.png",
         description: "Out of this world"),
+    Shoe(
+        name: "Polar reece",
+        price: "540",
+        imagePath: "lib/images/nike_logo.png",
+        description: "Out of this world"),
+    Shoe(
+        name: "Polar reece",
+        price: "540",
+        imagePath: "lib/images/nike_logo.png",
+        description: "Out of this world"),
     // i can add more kicks her the same way
   ];
   // list of items in user's cart
