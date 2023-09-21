@@ -71,6 +71,7 @@ class _ShopPageState extends State<ShopPage> {
                               price: "180",
                               description: "A work of art",
                               imagePath: "lib/images/nike_logo.png");
+                          // return the shoe
                           return ShoeTile(
                             shoe: shoe,
                           );
