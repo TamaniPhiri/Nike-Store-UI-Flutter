@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:demo/models/cart.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -13,7 +11,7 @@ class ShopPage extends StatefulWidget {
   State<ShopPage> createState() => _ShopPageState();
 }
 
-void addShoeToCart(Shoe shoe) {
+void addShoeToCart(BuildContext context, Shoe shoe) {
   // add shoe to cart
   Provider.of<Cart>(context, listen: false).addItemsToCart(shoe);
 
@@ -84,7 +82,7 @@ class _ShopPageState extends State<ShopPage> {
                           // return the shoe
                           return ShoeTile(
                             shoe: shoe,
-                            onTap: () => addShoeToCart(individualShoe),
+                            onTap: () => addShoeToCart(context, shoe),
                           );
                         })),
                 const Padding(
