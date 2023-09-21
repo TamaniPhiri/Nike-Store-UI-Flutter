@@ -7,22 +7,22 @@ class Cart extends ChangeNotifier {
     Shoe(
         name: "Polar reece",
         price: "540",
-        imagePath: "lib/images/nike_logo.png",
+        imagePath: "lib/images/sneaker_one.jpg",
         description: "Out of this world"),
     Shoe(
         name: "Polar reece",
         price: "540",
-        imagePath: "lib/images/nike_logo.png",
+        imagePath: "lib/images/sneaker_two.jpg",
         description: "Out of this world"),
     Shoe(
         name: "Polar reece",
         price: "540",
-        imagePath: "lib/images/nike_logo.png",
+        imagePath: "lib/images/sneaker_one.jpg",
         description: "Out of this world"),
     Shoe(
         name: "Polar reece",
         price: "540",
-        imagePath: "lib/images/nike_logo.png",
+        imagePath: "lib/images/sneaker_two.jpg",
         description: "Out of this world"),
     // i can add more kicks her the same way
   ];
