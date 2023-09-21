@@ -27,5 +27,9 @@ class Cart {
   void addItemsToCart(Shoe shoe) {
     userCart.add(shoe);
   }
+
   // remove item from cart
+  void removeItemFromCart(Shoe shoe) {
+    userCart.remove(shoe);
+  }
 }
