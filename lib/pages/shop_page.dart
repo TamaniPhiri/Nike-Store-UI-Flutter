@@ -1,7 +1,6 @@
 import 'package:demo/models/cart.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../components/shoe_tile.dart';
 import '../models/shoe.dart';
 
