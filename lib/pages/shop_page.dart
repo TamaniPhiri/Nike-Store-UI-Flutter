@@ -1,3 +1,5 @@
+import 'dart:js';
+
 import 'package:demo/models/cart.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -9,6 +11,19 @@ class ShopPage extends StatefulWidget {
 
   @override
   State<ShopPage> createState() => _ShopPageState();
+}
+
+void addShoeToCart(Shoe shoe) {
+  // add shoe to cart
+  Provider.of<Cart>(context, listen: false).addItemsToCart(shoe);
+
+  // alert the user, shoe successfully added to cart
+  showDialog(
+      context: context,
+      builder: (context) => const AlertDialog(
+            title: Text("Successfully added!"),
+            content: Text("Check your cart"),
+          ));
 }
 
 class _ShopPageState extends State<ShopPage> {
@@ -69,6 +84,7 @@ class _ShopPageState extends State<ShopPage> {
                           // return the shoe
                           return ShoeTile(
                             shoe: shoe,
+                            onTap: () => addShoeToCart(individualShoe),
                           );
                         })),
                 const Padding(
